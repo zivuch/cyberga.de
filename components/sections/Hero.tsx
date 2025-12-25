@@ -34,7 +34,7 @@ export default function Hero() {
         </FadeIn>
 
         <FadeIn delay={0.4}>
-          <p className="text-lg md:text-xl text-[#9CA3AF] max-w-3xl mx-auto mb-12">
+          <p className="text-lg md:text-xl text-[#9CA3AF] max-w-3xl mx-auto mb-12 text-center">
             {t('subtitle')}
           </p>
         </FadeIn>

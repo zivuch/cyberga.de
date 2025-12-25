@@ -32,7 +32,7 @@ export default function Technology() {
             <h2 className="text-3xl md:text-5xl font-bold text-[#E5E7EB] mb-4 font-[family-name:var(--font-space-grotesk)]">
               {t('title')}
             </h2>
-            <p className="text-lg text-[#9CA3AF] max-w-2xl mx-auto">
+            <p className="text-lg text-[#9CA3AF] max-w-2xl mx-auto text-center">
               {t('subtitle')}
             </p>
           </div>
