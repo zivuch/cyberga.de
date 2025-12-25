@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Cyberga - Test Automation and Security for Critical Applications",
+    "description": "Cyberga ensures the reliability and security of critical applications through professional test automation and quality engineering."
+  },
+  "nav": {
+    "services": "Services",
+    "technology": "Technology",
+    "benefits": "Benefits",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Reliability and Security for Critical Applications",
+    "subtitle": "Cyberga ensures the reliability and security of critical applications through professional test automation and quality engineering.",
+    "cta_primary": "Get in touch",
+    "cta_secondary": "Learn more"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Specialized consulting for mission-critical systems",
+    "automation": {
+      "title": "Test Automation",
+      "description": "Automated end-to-end, API, and system tests to validate critical business processes using Robot Framework, Selenium, and Playwright."
+    },
+    "quality": {
+      "title": "Quality Engineering",
+      "description": "Reduce operational risk and protect system stability in complex environments through continuous validation."
+    },
+    "security": {
+      "title": "Security Validation",
+      "description": "Security testing and compliance validation (DSGVO/GDPR) for regulated industries with comprehensive risk assessment."
+    }
+  },
+  "caseStudy": {
+    "title": "Success Story",
+    "subtitle": "How we helped our client succeed",
+    "client": "Leading Financial Services Provider",
+    "challenge": "Challenge",
+    "challengeText": "Complex regulatory environment requiring automated validation of critical business processes with highest reliability.",
+    "solution": "Solution",
+    "solutionText": "Implemented comprehensive test automation framework for end-to-end validation of all critical processes.",
+    "results": "Results",
+    "stat1": "reduction in manual testing",
+    "stat2": "coverage of critical flows",
+    "stat3": "production incidents"
+  },
+  "technology": {
+    "title": "Technology & Expertise",
+    "subtitle": "Modern tools for reliable results",
+    "frameworks": "Frameworks & Tools",
+    "industries": "Industries",
+    "industryList": {
+      "financial": "Financial Services",
+      "insurance": "Insurance",
+      "healthcare": "Healthcare",
+      "enterprise": "Enterprise Software"
+    }
+  },
+  "benefits": {
+    "title": "Why Cyberga",
+    "subtitle": "Measurable benefits for your business",
+    "risk": {
+      "title": "Reduced Operational Risk",
+      "description": "Catch issues before they reach production and cause damage to your business."
+    },
+    "compliance": {
+      "title": "Regulatory Compliance",
+      "description": "Ensure adherence to industry standards and regulatory requirements."
+    },
+    "efficiency": {
+      "title": "Cost Efficiency",
+      "description": "Automated testing reduces manual effort by 80%+ and accelerates release cycles."
+    },
+    "stability": {
+      "title": "System Stability",
+      "description": "Continuous validation protects critical processes and ensures reliable operation."
+    },
+    "expertise": {
+      "title": "Expert Consultation",
+      "description": "Deep technical expertise in complex regulated environments."
+    }
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Ready to improve the quality and security of your applications?",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send. Please try again."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "Germany"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Cyberga. All rights reserved.",
+    "impressum": "Legal Notice",
+    "privacy": "Privacy Policy"
+  }
+}

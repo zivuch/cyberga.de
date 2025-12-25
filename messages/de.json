@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Cyberga - Testautomatisierung und Sicherheit für kritische Anwendungen",
+    "description": "Cyberga stellt sicher, dass kritische Anwendungen durch professionelle Testautomatisierung und Quality Engineering zuverlässig und sicher funktionieren."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "technology": "Technologie",
+    "benefits": "Vorteile",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Zuverlässigkeit und Sicherheit für kritische Anwendungen",
+    "subtitle": "Cyberga stellt sicher, dass kritische Anwendungen durch professionelle Testautomatisierung und Quality Engineering zuverlässig und sicher funktionieren.",
+    "cta_primary": "Kontakt aufnehmen",
+    "cta_secondary": "Mehr erfahren"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Spezialisierte Beratung für unternehmenskritische Systeme",
+    "automation": {
+      "title": "Testautomatisierung",
+      "description": "Automatisierte End-to-End-, API- und Systemtests zur Validierung kritischer Geschäftsprozesse mit Robot Framework, Selenium und Playwright."
+    },
+    "quality": {
+      "title": "Quality Engineering",
+      "description": "Reduzierung operativer Risiken und Schutz der Systemstabilität in komplexen Umgebungen durch kontinuierliche Validierung."
+    },
+    "security": {
+      "title": "Sicherheitsvalidierung",
+      "description": "Sicherheitstests und Compliance-Validierung (DSGVO/GDPR) für regulierte Branchen mit umfassender Risikoanalyse."
+    }
+  },
+  "caseStudy": {
+    "title": "Erfolgsgeschichte",
+    "subtitle": "Wie wir unseren Kunden zum Erfolg verholfen haben",
+    "client": "Führender Finanzdienstleister",
+    "challenge": "Herausforderung",
+    "challengeText": "Komplexes regulatorisches Umfeld erfordert automatisierte Validierung kritischer Geschäftsprozesse mit höchster Zuverlässigkeit.",
+    "solution": "Lösung",
+    "solutionText": "Implementierung eines umfassenden Testautomatisierungs-Frameworks für End-to-End-Validierung aller kritischen Prozesse.",
+    "results": "Ergebnisse",
+    "stat1": "Reduktion manueller Tests",
+    "stat2": "Abdeckung kritischer Prozesse",
+    "stat3": "Produktionsfehler"
+  },
+  "technology": {
+    "title": "Technologie & Expertise",
+    "subtitle": "Moderne Werkzeuge für zuverlässige Ergebnisse",
+    "frameworks": "Frameworks & Tools",
+    "industries": "Branchen",
+    "industryList": {
+      "financial": "Finanzdienstleistungen",
+      "insurance": "Versicherungen",
+      "healthcare": "Gesundheitswesen",
+      "enterprise": "Enterprise Software"
+    }
+  },
+  "benefits": {
+    "title": "Warum Cyberga",
+    "subtitle": "Messbare Vorteile für Ihr Unternehmen",
+    "risk": {
+      "title": "Reduziertes operatives Risiko",
+      "description": "Fehler erkennen, bevor sie die Produktionsumgebung erreichen und Schaden anrichten können."
+    },
+    "compliance": {
+      "title": "Regulatorische Compliance",
+      "description": "Sicherstellung der Einhaltung von Industriestandards und regulatorischen Anforderungen."
+    },
+    "efficiency": {
+      "title": "Kosteneffizienz",
+      "description": "Automatisierte Tests reduzieren den manuellen Aufwand um mehr als 80% und beschleunigen Releases."
+    },
+    "stability": {
+      "title": "Systemstabilität",
+      "description": "Kontinuierliche Validierung schützt kritische Prozesse und gewährleistet zuverlässigen Betrieb."
+    },
+    "expertise": {
+      "title": "Experten-Beratung",
+      "description": "Tiefgreifende technische Expertise in komplexen regulierten Umgebungen."
+    }
+  },
+  "contact": {
+    "title": "Lassen Sie uns sprechen",
+    "subtitle": "Bereit, die Qualität und Sicherheit Ihrer Anwendungen zu verbessern?",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre.email@beispiel.de",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Ihr Unternehmen",
+      "message": "Nachricht",
+      "messagePlaceholder": "Wie können wir Ihnen helfen?",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Fehler beim Senden. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "email": "E-Mail",
+      "location": "Standort",
+      "locationValue": "Deutschland"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Cyberga. Alle Rechte vorbehalten.",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

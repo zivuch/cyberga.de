@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(dir /s \"C:\\\\Users\\\\97250\\\\Documents\\\\Cyberga.de\")",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(cat:*)",
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
