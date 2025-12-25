@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { Code, TestTube, GitBranch, Workflow } from 'lucide-react';
 import FadeIn from '@/components/animations/FadeIn';

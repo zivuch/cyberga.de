@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { Cog, Shield, CheckCircle } from 'lucide-react';
 import Card from '@/components/ui/Card';
