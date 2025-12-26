@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { type Locale } from "@/lib/i18n";
 
 interface NavMessages {
@@ -26,6 +27,13 @@ export default function Header({ locale, messages }: HeaderProps) {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center gap-2">
+            <Image
+              src="/icon.svg"
+              alt="Cyberga Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
             <span className="text-2xl font-serif font-semibold text-dark">
               Cyberga
             </span>
