@@ -24,12 +24,35 @@ export default function Header({ locale, messages }: HeaderProps) {
     <header className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm">
       <div className="container-main">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-2">
-            <span className="text-2xl font-serif font-semibold text-dark">
-              Cyberga
-            </span>
-          </Link>
+          {/* Logo + Language Toggle */}
+          <div className="flex items-center gap-4">
+            <Link href={`/${locale}`} className="flex items-center gap-2">
+              <span className="text-2xl font-serif font-semibold text-dark">
+                Cyberga
+              </span>
+            </Link>
+
+            {/* Language Toggle */}
+            <Link
+              href={`/${otherLocale}`}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 text-sm font-medium text-dark hover:text-primary transition-colors border border-dark/20 rounded-full"
+            >
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                />
+              </svg>
+              {otherLocale.toUpperCase()}
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
@@ -53,29 +76,8 @@ export default function Header({ locale, messages }: HeaderProps) {
             </a>
           </nav>
 
-          {/* Language Toggle & CTA */}
-          <div className="hidden md:flex items-center gap-4">
-            {/* Language Toggle */}
-            <Link
-              href={`/${otherLocale}`}
-              className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-dark hover:text-primary transition-colors border border-dark/20 rounded-full"
-            >
-              <svg
-                className="w-4 h-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                />
-              </svg>
-              {otherLocale.toUpperCase()}
-            </Link>
-
+          {/* CTA Button */}
+          <div className="hidden md:block">
             <a href="#contact" className="btn-primary">
               {messages.getInTouch}
             </a>
@@ -137,27 +139,6 @@ export default function Header({ locale, messages }: HeaderProps) {
               >
                 {messages.contact}
               </a>
-
-              {/* Mobile Language Toggle */}
-              <Link
-                href={`/${otherLocale}`}
-                className="flex items-center gap-2 text-dark hover:text-primary transition-colors"
-              >
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                  />
-                </svg>
-                {otherLocale === "de" ? "Deutsch" : "English"}
-              </Link>
 
               <a href="#contact" className="btn-primary w-fit mt-2">
                 {messages.getInTouch}
