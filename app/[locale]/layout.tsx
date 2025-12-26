@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../globals.css";
 import { locales } from "@/lib/i18n";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -93,7 +94,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <GoogleAnalytics />
+        {children}
+      </body>
     </html>
   );
 }
