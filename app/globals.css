@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-dark antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-medium rounded-pill transition-all duration-200 hover:bg-primary-dark;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-accent-lime text-dark font-medium rounded-pill transition-all duration-200 hover:bg-accent-lime-dark;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 border border-dark text-dark font-medium rounded-pill transition-all duration-200 hover:bg-dark hover:text-white;
+  }
+
+  .section-number {
+    @apply text-display-xl font-serif opacity-80 tracking-tighter;
+  }
+
+  .section-border {
+    @apply border-t border-black;
+  }
+
+  .container-main {
+    @apply max-w-container mx-auto px-6 lg:px-12;
+  }
+}
