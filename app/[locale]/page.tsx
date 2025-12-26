@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import StructuredData from "@/components/StructuredData";
 import { type Locale, getMessages, defaultLocale } from "@/lib/i18n";
 
 export default async function Home({
@@ -18,6 +19,7 @@ export default async function Home({
 
   return (
     <>
+      <StructuredData locale={locale} />
       <Header locale={locale} messages={messages.nav} />
       <main>
         <Hero messages={messages.hero} />

@@ -2,20 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cyberga.de/de</loc>
+    <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://cyberga.de/de"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://cyberga.de/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cyberga.de/de"/>
   </url>
   <url>
     <loc>https://cyberga.de/en</loc>
+    <lastmod>2025-12-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://cyberga.de/de"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://cyberga.de/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cyberga.de/de"/>
   </url>
   <url>
     <loc>https://cyberga.de/de/impressum</loc>
+    <lastmod>2025-12-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://cyberga.de/de/impressum"/>
@@ -23,6 +28,7 @@
   </url>
   <url>
     <loc>https://cyberga.de/en/impressum</loc>
+    <lastmod>2025-12-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://cyberga.de/de/impressum"/>
@@ -30,6 +36,7 @@
   </url>
   <url>
     <loc>https://cyberga.de/de/datenschutz</loc>
+    <lastmod>2025-12-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://cyberga.de/de/datenschutz"/>
@@ -37,6 +44,7 @@
   </url>
   <url>
     <loc>https://cyberga.de/en/datenschutz</loc>
+    <lastmod>2025-12-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="de" href="https://cyberga.de/de/datenschutz"/>
