@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, FormEvent } from "react";
+
 interface ContactForm {
   name: string;
   namePlaceholder: string;
@@ -8,6 +12,9 @@ interface ContactForm {
   message: string;
   messagePlaceholder: string;
   submit: string;
+  sending: string;
+  success: string;
+  error: string;
 }
 
 interface ContactMessages {
@@ -21,7 +28,41 @@ interface ContactProps {
   messages: ContactMessages;
 }
 
+type FormStatus = "idle" | "sending" | "success" | "error";
+
 export default function Contact({ messages }: ContactProps) {
+  const [status, setStatus] = useState<FormStatus>("idle");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+    message: "",
+  });
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setStatus("sending");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", company: "", message: "" });
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  };
+
   return (
     <section id="contact" className="py-24">
       <div className="container-main">
@@ -35,8 +76,22 @@ export default function Contact({ messages }: ContactProps) {
             {messages.description}
           </p>
 
+          {/* Success Message */}
+          {status === "success" && (
+            <div className="mb-8 p-4 bg-green-100 border border-green-300 rounded-lg text-green-800">
+              {messages.form.success}
+            </div>
+          )}
+
+          {/* Error Message */}
+          {status === "error" && (
+            <div className="mb-8 p-4 bg-red-100 border border-red-300 rounded-lg text-red-800">
+              {messages.form.error}
+            </div>
+          )}
+
           {/* Contact Form */}
-          <form className="space-y-6 text-left">
+          <form onSubmit={handleSubmit} className="space-y-6 text-left">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label
@@ -49,8 +104,14 @@ export default function Contact({ messages }: ContactProps) {
                   type="text"
                   id="name"
                   name="name"
+                  required
+                  value={formData.name}
+                  onChange={(e) =>
+                    setFormData({ ...formData, name: e.target.value })
+                  }
                   className="w-full px-4 py-3 bg-white border border-dark/20 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                   placeholder={messages.form.namePlaceholder}
+                  disabled={status === "sending"}
                 />
               </div>
               <div>
@@ -64,8 +125,14 @@ export default function Contact({ messages }: ContactProps) {
                   type="email"
                   id="email"
                   name="email"
+                  required
+                  value={formData.email}
+                  onChange={(e) =>
+                    setFormData({ ...formData, email: e.target.value })
+                  }
                   className="w-full px-4 py-3 bg-white border border-dark/20 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                   placeholder={messages.form.emailPlaceholder}
+                  disabled={status === "sending"}
                 />
               </div>
             </div>
@@ -81,8 +148,13 @@ export default function Contact({ messages }: ContactProps) {
                 type="text"
                 id="company"
                 name="company"
+                value={formData.company}
+                onChange={(e) =>
+                  setFormData({ ...formData, company: e.target.value })
+                }
                 className="w-full px-4 py-3 bg-white border border-dark/20 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                 placeholder={messages.form.companyPlaceholder}
+                disabled={status === "sending"}
               />
             </div>
 
@@ -97,14 +169,26 @@ export default function Contact({ messages }: ContactProps) {
                 id="message"
                 name="message"
                 rows={4}
+                required
+                value={formData.message}
+                onChange={(e) =>
+                  setFormData({ ...formData, message: e.target.value })
+                }
                 className="w-full px-4 py-3 bg-white border border-dark/20 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors resize-none"
                 placeholder={messages.form.messagePlaceholder}
+                disabled={status === "sending"}
               />
             </div>
 
             <div className="text-center pt-4">
-              <button type="submit" className="btn-primary">
-                {messages.form.submit}
+              <button
+                type="submit"
+                className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
+                disabled={status === "sending"}
+              >
+                {status === "sending"
+                  ? messages.form.sending
+                  : messages.form.submit}
               </button>
             </div>
           </form>

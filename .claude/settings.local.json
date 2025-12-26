@@ -16,7 +16,9 @@
       "Bash(git push:*)",
       "WebFetch(domain:www.dataforwomen.ai)",
       "Bash(git -C \"C:\\\\Users\\\\97250\\\\Documents\\\\WorkshopLP\\\\Cyberga.de copy\" log --oneline -20)",
-      "Bash(git -C \"C:\\\\Users\\\\97250\\\\Documents\\\\WorkshopLP\\\\Cyberga.de copy\" show HEAD --name-only --pretty=\"\")"
+      "Bash(git -C \"C:\\\\Users\\\\97250\\\\Documents\\\\WorkshopLP\\\\Cyberga.de copy\" show HEAD --name-only --pretty=\"\")",
+      "Bash(git revert:*)",
+      "Bash(tree:*)"
     ]
   }
 }

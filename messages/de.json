@@ -80,7 +80,10 @@
       "companyPlaceholder": "Ihr Unternehmen",
       "message": "Nachricht",
       "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt und Ihren Testanforderungen...",
-      "submit": "Nachricht senden"
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze bei Ihnen.",
+      "error": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
     }
   },
   "cookieConsent": {
