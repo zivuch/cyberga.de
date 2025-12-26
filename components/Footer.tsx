@@ -83,12 +83,18 @@ export default function Footer({ messages, locale }: FooterProps) {
             &copy; {currentYear} {messages.copyright}
           </p>
           <div className="flex gap-6 text-white/50 text-sm">
-            <a href="#" className="hover:text-white transition-colors">
+            <Link
+              href={`/${locale}/datenschutz`}
+              className="hover:text-white transition-colors"
+            >
               {messages.privacy}
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
+            </Link>
+            <Link
+              href={`/${locale}/impressum`}
+              className="hover:text-white transition-colors"
+            >
               {messages.terms}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

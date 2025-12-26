@@ -83,6 +83,13 @@
       "submit": "Nachricht senden"
     }
   },
+  "cookieConsent": {
+    "title": "Cookie-Einstellungen",
+    "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und den Website-Verkehr zu analysieren.",
+    "acceptAll": "Alle akzeptieren",
+    "acceptNecessary": "Nur notwendige",
+    "learnMore": "Mehr erfahren"
+  },
   "footer": {
     "description": "Sicherstellung der Zuverlässigkeit und Sicherheit kritischer Anwendungen durch professionelle Testautomatisierung und Qualitätssicherung.",
     "quickLinks": "Schnelllinks",
@@ -90,6 +97,80 @@
     "contactText": "Bereit sicherzustellen, dass Ihre Anwendungen zuverlässig und sicher funktionieren?",
     "copyright": "Cyberga. Alle Rechte vorbehalten.",
     "privacy": "Datenschutz",
-    "terms": "AGB"
+    "terms": "Impressum"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "backToHome": "Zurück zur Startseite",
+    "company": "G&A GbR",
+    "address": "Jordanstr. 26",
+    "city": "60487 Frankfurt am Main",
+    "responsible": "Verantwortlicher",
+    "responsibleName": "Adam Azani"
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "backToHome": "Zurück zur Startseite",
+    "intro": "Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre Daten verarbeiten.",
+    "controller": {
+      "title": "1. Verantwortlicher",
+      "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+      "company": "G&A GbR",
+      "address": "Jordanstr. 26, 60487 Frankfurt am Main",
+      "responsible": "Vertreten durch: Adam Azani"
+    },
+    "dataCollection": {
+      "title": "2. Erhebung und Verarbeitung von Daten",
+      "contactForm": {
+        "title": "Kontaktformular",
+        "content": "Wenn Sie uns über unser Kontaktformular kontaktieren, erheben wir folgende Daten:",
+        "items": ["Name", "E-Mail-Adresse", "Unternehmen (optional)", "Ihre Nachricht"],
+        "purpose": "Diese Daten verwenden wir ausschließlich zur Bearbeitung Ihrer Anfrage."
+      },
+      "analytics": {
+        "title": "Webanalyse",
+        "content": "Wir nutzen Webanalyse-Tools, um die Nutzung unserer Website zu verstehen und zu verbessern. Dabei werden folgende Daten erfasst:",
+        "items": ["IP-Adresse (anonymisiert)", "Browser und Betriebssystem", "Besuchte Seiten", "Verweildauer"],
+        "purpose": "Diese Daten werden anonymisiert verarbeitet und dienen ausschließlich der Verbesserung unseres Webauftritts."
+      }
+    },
+    "legalBasis": {
+      "title": "3. Rechtsgrundlage",
+      "content": "Die Verarbeitung Ihrer Daten erfolgt auf Grundlage von Art. 6 Abs. 1 DSGVO:",
+      "items": [
+        "Einwilligung (lit. a) - für die Nutzung von Cookies und Analysetools",
+        "Vertragserfüllung (lit. b) - zur Bearbeitung Ihrer Anfragen",
+        "Berechtigtes Interesse (lit. f) - zur Verbesserung unserer Website"
+      ]
+    },
+    "retention": {
+      "title": "4. Speicherdauer",
+      "content": "Kontaktanfragen werden nach Abschluss der Bearbeitung für maximal 6 Monate gespeichert. Analysedaten werden anonymisiert und für maximal 26 Monate aufbewahrt."
+    },
+    "rights": {
+      "title": "5. Ihre Rechte",
+      "content": "Sie haben folgende Rechte bezüglich Ihrer personenbezogenen Daten:",
+      "items": [
+        "Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)",
+        "Berichtigung unrichtiger Daten (Art. 16 DSGVO)",
+        "Löschung Ihrer Daten (Art. 17 DSGVO)",
+        "Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+        "Datenübertragbarkeit (Art. 20 DSGVO)",
+        "Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)"
+      ]
+    },
+    "cookies": {
+      "title": "6. Cookies",
+      "content": "Diese Website verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden. Wir verwenden:",
+      "items": [
+        "Notwendige Cookies - für die Grundfunktionen der Website",
+        "Analyse-Cookies - zur Verbesserung unserer Website (nur mit Ihrer Einwilligung)"
+      ]
+    },
+    "contact": {
+      "title": "7. Kontakt",
+      "content": "Bei Fragen zum Datenschutz können Sie uns jederzeit kontaktieren:",
+      "email": "E-Mail: kontakt@cyberga.de"
+    }
   }
 }

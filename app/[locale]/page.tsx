@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 import { type Locale, getMessages, defaultLocale } from "@/lib/i18n";
 
 export default async function Home({
@@ -25,6 +26,7 @@ export default async function Home({
         <Contact messages={messages.contact} />
       </main>
       <Footer messages={messages.footer} locale={locale} />
+      <CookieConsent messages={messages.cookieConsent} locale={locale} />
     </>
   );
 }

@@ -83,6 +83,13 @@
       "submit": "Send Message"
     }
   },
+  "cookieConsent": {
+    "title": "Cookie Settings",
+    "description": "We use cookies to improve your experience and analyze website traffic.",
+    "acceptAll": "Accept All",
+    "acceptNecessary": "Necessary Only",
+    "learnMore": "Learn more"
+  },
   "footer": {
     "description": "Ensuring the reliability and security of critical applications through professional test automation and quality engineering.",
     "quickLinks": "Quick Links",
@@ -90,6 +97,80 @@
     "contactText": "Ready to ensure your applications work reliably and securely?",
     "copyright": "Cyberga. All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Imprint"
+  },
+  "impressum": {
+    "title": "Imprint",
+    "backToHome": "Back to Home",
+    "company": "G&A GbR",
+    "address": "Jordanstr. 26",
+    "city": "60487 Frankfurt am Main, Germany",
+    "responsible": "Responsible Person",
+    "responsibleName": "Adam Azani"
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "backToHome": "Back to Home",
+    "intro": "The protection of your personal data is important to us. This privacy policy informs you about how we process your data.",
+    "controller": {
+      "title": "1. Data Controller",
+      "content": "The controller responsible for data processing on this website is:",
+      "company": "G&A GbR",
+      "address": "Jordanstr. 26, 60487 Frankfurt am Main, Germany",
+      "responsible": "Represented by: Adam Azani"
+    },
+    "dataCollection": {
+      "title": "2. Data Collection and Processing",
+      "contactForm": {
+        "title": "Contact Form",
+        "content": "When you contact us via our contact form, we collect the following data:",
+        "items": ["Name", "Email address", "Company (optional)", "Your message"],
+        "purpose": "We use this data exclusively to process your inquiry."
+      },
+      "analytics": {
+        "title": "Web Analytics",
+        "content": "We use web analytics tools to understand and improve the use of our website. The following data is collected:",
+        "items": ["IP address (anonymized)", "Browser and operating system", "Pages visited", "Time spent on site"],
+        "purpose": "This data is processed anonymously and used solely to improve our website."
+      }
+    },
+    "legalBasis": {
+      "title": "3. Legal Basis",
+      "content": "The processing of your data is based on Art. 6 Para. 1 GDPR:",
+      "items": [
+        "Consent (lit. a) - for the use of cookies and analytics tools",
+        "Contract fulfillment (lit. b) - to process your inquiries",
+        "Legitimate interest (lit. f) - to improve our website"
+      ]
+    },
+    "retention": {
+      "title": "4. Data Retention",
+      "content": "Contact inquiries are stored for a maximum of 6 months after processing is complete. Analytics data is anonymized and retained for a maximum of 26 months."
+    },
+    "rights": {
+      "title": "5. Your Rights",
+      "content": "You have the following rights regarding your personal data:",
+      "items": [
+        "Right of access to your stored data (Art. 15 GDPR)",
+        "Right to rectification of inaccurate data (Art. 16 GDPR)",
+        "Right to erasure of your data (Art. 17 GDPR)",
+        "Right to restriction of processing (Art. 18 GDPR)",
+        "Right to data portability (Art. 20 GDPR)",
+        "Right to object to processing (Art. 21 GDPR)"
+      ]
+    },
+    "cookies": {
+      "title": "6. Cookies",
+      "content": "This website uses cookies. Cookies are small text files stored on your device. We use:",
+      "items": [
+        "Necessary cookies - for basic website functionality",
+        "Analytics cookies - to improve our website (only with your consent)"
+      ]
+    },
+    "contact": {
+      "title": "7. Contact",
+      "content": "If you have any questions about data protection, please contact us:",
+      "email": "Email: kontakt@cyberga.de"
+    }
   }
 }
