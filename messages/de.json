@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "getInTouch": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "tagline": "Testautomatisierung & Sicherheitsberatung",
+    "headline": "Zuverlässigkeit & Sicherheit für",
+    "headlineAccent": "Kritische Anwendungen",
+    "description": "Cyberga ist eine auf Testautomatisierung und Sicherheit spezialisierte Beratung, die sicherstellt, dass kritische Anwendungen zuverlässig und sicher funktionieren. Wir entwerfen und implementieren automatisierte End-to-End-, API- und Systemtests, um Kerngeschäftsprozesse zu validieren, operationelle Risiken zu reduzieren und die Systemstabilität in komplexen und regulierten Umgebungen zu schützen.",
+    "cta": "Jetzt starten",
+    "ctaSecondary": "Unsere Leistungen"
+  },
+  "services": {
+    "subtitle": "Was wir tun",
+    "title": "Unsere Leistungen",
+    "items": [
+      {
+        "number": "01",
+        "title": "End-to-End-Tests",
+        "description": "Umfassende automatisierte Tests, die komplette Benutzerreisen und Geschäftsabläufe validieren und sicherstellen, dass Ihre Anwendung von Anfang bis Ende korrekt funktioniert.",
+        "tag": "UI/UX-Validierung"
+      },
+      {
+        "number": "02",
+        "title": "API-Tests",
+        "description": "Robuste API-Testautomatisierung, die Endpunkte, Datenintegrität und Integrationspunkte überprüft und Probleme erkennt, bevor sie in die Produktion gelangen.",
+        "tag": "Integration & Performance"
+      },
+      {
+        "number": "03",
+        "title": "Sicherheitsvalidierung",
+        "description": "Proaktive Sicherheitstests, die Schwachstellen identifizieren und Sicherheitskontrollen validieren, um Ihre Anwendungen und Daten vor Bedrohungen zu schützen.",
+        "tag": "Schwachstellenanalyse"
+      },
+      {
+        "number": "04",
+        "title": "CI/CD-Integration",
+        "description": "Nahtlose Integration automatisierter Tests in Ihre Entwicklungspipeline für kontinuierliche Qualitätssicherung und schnellere, sicherere Releases.",
+        "tag": "DevOps & Automatisierung"
+      }
+    ]
+  },
+  "about": {
+    "subtitle": "Über Cyberga",
+    "title": "Qualitätssicherung für geschäftskritische Systeme",
+    "description1": "Cyberga kombiniert Testautomatisierung und Sicherheitsvalidierung, um sicherzustellen, dass geschäftskritische Anwendungen korrekt, sicher und konsistent in komplexen Systemlandschaften funktionieren.",
+    "description2": "Wir arbeiten mit Organisationen zusammen, die sich Anwendungsausfälle nicht leisten können. Unser methodischer Ansatz zur Testautomatisierung und Sicherheitsvalidierung gibt Ihnen das Vertrauen, das Sie zum Betrieb und zur Skalierung benötigen.",
+    "benefits": [
+      {
+        "title": "Operationelle Risiken reduzieren",
+        "description": "Automatisierte Tests erkennen Probleme, bevor sie Ihr Geschäft beeinträchtigen, und minimieren kostspielige Produktionsvorfälle."
+      },
+      {
+        "title": "Lieferung beschleunigen",
+        "description": "Kontinuierliche Qualitätssicherung ermöglicht schnellere Release-Zyklen ohne Kompromisse bei der Stabilität."
+      },
+      {
+        "title": "Systemstabilität schützen",
+        "description": "Umfassende Testabdeckung stellt sicher, dass Ihre kritischen Anwendungen unter allen Bedingungen zuverlässig bleiben."
+      },
+      {
+        "title": "Compliance-bereit",
+        "description": "Test-Frameworks für komplexe und regulierte Umgebungen mit vollständigen Audit-Trails."
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Kontakt aufnehmen",
+    "title": "Bereit, Ihre Anwendungen zu sichern?",
+    "description": "Lassen Sie uns besprechen, wie Cyberga die Zuverlässigkeit und Sicherheit Ihrer kritischen Anwendungen durch professionelle Testautomatisierung und Qualitätssicherung gewährleisten kann.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Ihr Unternehmen",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt und Ihren Testanforderungen...",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "description": "Sicherstellung der Zuverlässigkeit und Sicherheit kritischer Anwendungen durch professionelle Testautomatisierung und Qualitätssicherung.",
+    "quickLinks": "Schnelllinks",
+    "contactTitle": "Kontakt",
+    "contactText": "Bereit sicherzustellen, dass Ihre Anwendungen zuverlässig und sicher funktionieren?",
+    "copyright": "Cyberga. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
+  }
+}

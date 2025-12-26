@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "hero": {
+    "tagline": "Test Automation & Security Consultancy",
+    "headline": "Reliability & Security for",
+    "headlineAccent": "Critical Applications",
+    "description": "Cyberga is a test automation and security-focused consultancy that ensures critical applications work reliably and securely. We design and implement automated end-to-end, API, and system tests to validate core business processes, reduce operational risk, and protect system stability in complex and regulated environments.",
+    "cta": "Get Started",
+    "ctaSecondary": "Our Services"
+  },
+  "services": {
+    "subtitle": "What We Do",
+    "title": "Our Services",
+    "items": [
+      {
+        "number": "01",
+        "title": "End-to-End Testing",
+        "description": "Comprehensive automated testing that validates complete user journeys and business workflows, ensuring your application behaves correctly from start to finish.",
+        "tag": "UI/UX Validation"
+      },
+      {
+        "number": "02",
+        "title": "API Testing",
+        "description": "Robust API test automation that verifies endpoints, data integrity, and integration points, catching issues before they reach production.",
+        "tag": "Integration & Performance"
+      },
+      {
+        "number": "03",
+        "title": "Security Validation",
+        "description": "Proactive security testing that identifies vulnerabilities and validates security controls, protecting your applications and data from threats.",
+        "tag": "Vulnerability Assessment"
+      },
+      {
+        "number": "04",
+        "title": "CI/CD Integration",
+        "description": "Seamless integration of automated tests into your development pipeline, enabling continuous quality assurance and faster, safer releases.",
+        "tag": "DevOps & Automation"
+      }
+    ]
+  },
+  "about": {
+    "subtitle": "About Cyberga",
+    "title": "Quality Engineering for Mission-Critical Systems",
+    "description1": "Cyberga combines test automation and security validation to ensure that mission-critical applications function correctly, securely, and consistently across complex system landscapes.",
+    "description2": "We partner with organizations that cannot afford application failures. Our methodical approach to test automation and security validation provides the confidence you need to operate and scale.",
+    "benefits": [
+      {
+        "title": "Reduce Operational Risk",
+        "description": "Automated testing catches issues before they impact your business, minimizing costly production incidents."
+      },
+      {
+        "title": "Accelerate Delivery",
+        "description": "Continuous quality assurance enables faster release cycles without compromising stability."
+      },
+      {
+        "title": "Protect System Stability",
+        "description": "Comprehensive test coverage ensures your critical applications remain reliable under all conditions."
+      },
+      {
+        "title": "Compliance Ready",
+        "description": "Testing frameworks designed for complex and regulated environments with full audit trails."
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Get in Touch",
+    "title": "Ready to Secure Your Applications?",
+    "description": "Let's discuss how Cyberga can help ensure the reliability and security of your critical applications through professional test automation and quality engineering.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project and testing needs...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Ensuring the reliability and security of critical applications through professional test automation and quality engineering.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact",
+    "contactText": "Ready to ensure your applications work reliably and securely?",
+    "copyright": "Cyberga. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
