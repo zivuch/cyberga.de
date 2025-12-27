@@ -1,4 +1,9 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="32" height="32" rx="6" fill="#9342FE"/>
-  <text x="16" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Cy</text>
+  <g fill="white">
+    <!-- C shape -->
+    <path d="M22 8.5c-1.5-1.2-3.5-2-6-2-5.5 0-9.5 4-9.5 9.5s4 9.5 9.5 9.5c2.5 0 4.5-.8 6-2l-2-2.5c-1 .8-2.3 1.2-4 1.2-3.5 0-5.8-2.5-5.8-6.2s2.3-6.2 5.8-6.2c1.7 0 3 .4 4 1.2l2-2.5z"/>
+    <!-- y inside -->
+    <path d="M17 12l-2.5 5.5L12 12h-2l4 8.5-1.5 3.5h2l5.5-12h-2z"/>
+  </g>
 </svg>
